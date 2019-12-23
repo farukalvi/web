@@ -1,0 +1,254 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+html{
+font-size: 62.5%;
+text-rendering: optimizeLegibility;
+}
+body{
+scroll-behavior: smooth;
+line-height: 2rem;
+font-family: auto;
+}
+/*************header**************/
+
+/**************icons**************/
+.costom-icon{
+  color:#fffafa;
+  background:#000;
+  padding: 1rem;
+  font-size:1rem;
+  border-radius:50%;
+  margin-left: .5rem;
+  }
+ .contact-icon{
+  color:#fffafa;
+  padding: 1rem;
+  font-size:1rem;
+  border-radius:50%;
+  margin-left: .5rem;
+ } 
+
+  .costom-fa {
+    font-size: 3rem;
+    color: #51801d;
+}
+/**************span******************/
+ span.contact-no {
+   font-size: 1.3rem;
+    font-weight: 600;
+    color: #f1edea;
+    margin-top: 0.4rem;
+    margin-left: .3rem;
+}
+/*************top bar****************/
+.boxed-topbar{
+  background: #456263;
+}
+
+/**************navigation****************/
+nav.navbar.navbar-expand-md.navbar-expand-lg.py-4.uk-sticky {
+    background: #fff;
+}
+.nav-link{
+  font-size: 1.5rem;
+  color:#000;
+  font-weight: 700;
+  margin-left: 2.5rem;
+  transition: all 1s;
+  border-radius: .2rem;
+}
+.nav-link:hover{
+    background: black;
+    color: aliceblue;
+    padding: .5rem .8rem;
+
+}
+a.nav-link.home {
+    background: black;
+    color: aliceblue;
+    padding: .5rem .8rem;
+}
+/******************logo*******************/
+
+.logo{
+  width: 10rem;
+}
+.site-title {
+    font-size: 3rem;
+    color: #171615;
+    font-weight: 600;
+    margin-left: 1.6rem;
+}
+
+
+/**************banner section***************/
+
+#banner-section {
+    background: linear-gradient(rgba(0,23,43, 0.7),rgba(0,23,43, 0.7)),url("img/banner-bg.jpg");
+    padding: 12rem 0rem;
+    color:#fff;
+}
+
+
+.hero-tex{
+  width: 60rem;
+  margin-top: 7.5rem;
+
+}
+h1.hero-title {
+    font-size: 3.4rem;
+    line-height: 1.5;
+}
+p.paragraph {
+    font-size: 1.6rem;
+    margin: 2.5rem 0rem;
+}
+.button-hero{
+
+}
+button.button-hero {
+    font-size: 1.6rem;
+    padding: 0.7rem 1.3rem;
+    margin-top: 1.6rem;
+}
+
+/************perform****************/
+#perform{
+
+    background: linear-gradient(rgba(0,23,4, 0.3),rgba(0,23,4, 0.3)),url("img/people.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+  padding: 7rem 0rem;
+}
+h2.title-two {
+    font-size: 3rem;
+    padding-bottom: 1.6rem;
+}
+p.lead.para-two {
+    font-size: 1.7rem;
+    letter-spacing: .1rem;
+}
+
+/**********content***********/
+#content{
+
+
+  padding: 7rem 0rem;
+}
+.title-three{
+  font-size: 3.6rem;
+    padding-bottom: 1rem;
+}
+p.para-three {
+    font-size: 1.6rem;
+}
+
+
+/**************analisis**************/
+
+#analisis{
+
+}
+
+  .title-cstm {
+    font-weight: 600;
+    font-size: 1.6rem;
+
+}
+
+h2.analisis-title {
+    font-size: 2.7rem;
+    font-weight: 600;
+}
+
+p.lead.analisis-description {
+    font-size: 2rem;
+    line-height: 1.5;
+    padding-bottom: 4rem;
+}
+
+/***********************************************/
+#promo{
+  
+}
+
+/*****************talk***************/
+p.talk-description {
+    font-size: 1.6rem;
+    line-height: 2;
+    padding-bottom: 1.9rem;
+
+}
+
+/****************case*******************/
+
+h3.case-title {
+    font-size: 3.5rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    padding-top: 5rem;
+}
+
+p.lead.case-discription {
+    font-size: 1.8rem;
+    padding-bottom:3rem;
+}
+.row.mt-5 {margin-bottom: 67px;}
+
+/*************newsletter-section*******************/
+
+.container-fluid.newsletter-section {
+    padding: 30px 0px;
+    border-bottom: 2px solid #4f5050;
+}
+i.fa.fa-envelope.footer-mail-icon {
+    font-size: 20px;
+    color: #747d7d;
+    margin-top: 6px;
+}
+span.text-muted.mail {
+    font-size: 15px;
+    margin-left: 7px;
+}
+.d-flex.flex-row.my-4.flex-wraper {
+    border-bottom: 2px solid #615f5f;
+    padding-bottom: 10px;
+}
+
+i.fa.fa-phone.footer-phone-icon {
+    font-size: 20px;
+    color: #8c8989;
+    margin-top: 5px;
+}
+i.fa.fa-google.footer-google-icon {
+    font-size: 20px;
+    color: #848480;
+}
+h3.text-light.sarvice-title {
+    font-size: 19px;
+    text-transform: uppercase;
+}
+li.my-5.list {
+    font-size: 17px;
+    color: #788080;
+}
+h3.contact-form-title {
+    margin-top: 34px;
+    padding-bottom: 46px;
+}
+
+/*************copyright********************/
+
+p.text-muted.CopyRight-text {
+    font-size: 16px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.container-fluid.py-3.main-footer {
+    background: #565656;
+}
